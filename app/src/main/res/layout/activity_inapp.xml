@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fbutton="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/linearlayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fbutton_color_wet_asphalt"
+    android:orientation="vertical">
+
+    <include layout="@layout/layout_top_subs" />
+    <info.hoang8f.widget.FButton
+        android:id="@+id/btnCommon"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_gravity="right"
+        android:gravity="center"
+        android:paddingLeft="10dp"
+        android:textSize="14sp"
+        android:text="SUBSCRIPTION"
+        android:paddingRight="10dp"
+        android:textColor="#ecf0f1"
+        android:textStyle="bold"
+        android:layout_margin="10dp"/>
+    <ListView
+        android:id="@+id/itemlist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@null"
+        android:dividerHeight="10dp"
+        android:padding="10dp" />
+    <LinearLayout
+        android:id="@+id/llAlreadyPurchased"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text= "You Have Already Purchased Removed Ads..."
+            android:layout_marginBottom="20dp"
+            android:textColor="@android:color/white"
+            android:gravity="center"/>
+    </LinearLayout>
+
+
+</LinearLayout>

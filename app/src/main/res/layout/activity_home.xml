@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fbutton="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#3e454f"
+    >
+    <TextView
+        android:id="@+id/gameTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/quiz_mania"
+        android:gravity="center"
+        android:textColor="@color/fbutton_color_silver"
+        android:textSize="50sp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/brainteaser"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="10dp"
+        android:contentDescription="@string/todo" />
+
+    <info.hoang8f.widget.FButton
+        android:id="@+id/playGame"
+        fbutton:buttonColor="@color/fbutton_color_nephritis"
+        android:layout_width="300dp"
+        android:text="@string/play_game"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:layout_height="wrap_content" />
+
+    <info.hoang8f.widget.FButton
+        android:id="@+id/quit"
+        fbutton:buttonColor="@color/fbutton_color_pumpkin"
+        android:layout_width="300dp"
+        android:text="@string/quit"
+        android:layout_marginTop="30dp"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:layout_height="wrap_content" />
+</LinearLayout>

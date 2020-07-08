@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">QUIZ MANIA</string>
+    <string name="quit">QUIT</string>
+    <string name="play_game">LET\'s PLAY</string>
+    <string name="game_teaser">GAME TEASER</string>
+    <string name="todo">TODO</string>
+    <string name="general_knowledge">General Knowledge</string>
+    <string name="sports">SPORTS</string>
+    <string name="quiz_mania">QUIZ MANIA</string>
+    <string name="subscribe">Subscribe</string>
+    <string name="success_state">Transaction complete</string>
+    <string name="cancel_state">Transaction cancel</string>
+    <string name="refund_state">Transaction refunded</string>
+</resources>
